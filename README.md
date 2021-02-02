@@ -1,1 +1,1 @@
-# basic_examples
+This repo includes basic examples of Python programming.
