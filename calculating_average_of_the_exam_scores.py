@@ -1,7 +1,7 @@
 # In this example average of student's scores will be calculated. Firstly, student's scores will be taken from the user.
 # There will be 2 scores. One of them is called midterm exam, other is called final exam. Now final scores will be
 # calculated from this scores, while midterm exam will be affecting the final score 40 percent, final exam will affect
-# the final score 60 percent. In other words, the final score will equal to (0.4*midterm exam score + 0.6*final exam score).
+# the final score 60 percent. In other words, the final score will be equal to (0.4*midterm exam score + 0.6*final exam score).
 # After that, the average of midterm exam scores, the average of final exam scores and the average of final scores will
 # be calculated.
 # !!! Please do not confuse the 'final score' with the 'final exam score'. (final score = 0.4*midterm exam score + 0.6*final exam score)
@@ -43,7 +43,7 @@ total_score = 0 # We are creating a value named total_score and we are equating 
 #is to calculate the sum of scores. We will get in a for loop. After each loop, this value will be updated.
 for i in final_scores:
     total_score += i # Every loop, total_score will be increased by the value of i.
-final_scores_average = total_score / len(final_scores) # And finally average will equal to (sum of final scores / number of students)
+final_scores_average = total_score / len(final_scores) # And finally average will be equal to (sum of final scores / number of students)
 
 # Average of the final_exam_scores;
 total_score = 0
